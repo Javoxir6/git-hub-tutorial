@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+input{
+    outline: none;
+}
+
+input:not(:placeholder-shown):not(:focus):valid{
+    border: solid red 2px;
+    background-color: green;
+    color: red;
+}
+input:not(:placeholder-shown):not(:focus):invalid{
+    background-color: teal;
+    color: orange;
+}
+
+
+ 
+
+
